@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>尹若菡 · 地理信息与空间分析</title>
+<meta name="description" content="尹若菡，格勒诺布尔-阿尔卑斯大学地理信息与空间分析硕士（M2）。专题制图、遥感分类、Web GIS 与三维建模项目作品集。">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23d0e0e5' stroke='%232f7380' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%232f7380'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">尹若菡</a>
+    <ul>
+      <li><a href="#projects">项目</a></li>
+      <li><a href="#wood">实习</a></li>
+      <li><a href="#fire">遥感</a></li>
+      <li><a href="#flood">Web GIS</a></li>
+      <li><a href="#skills">技能</a></li>
+      <li><a href="#contact">联系</a></li>
+    </ul>
+    <button class="theme-btn" id="themeBtn" aria-label="切换深浅色">◐</button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">GIS · Spatial Analysis · Portfolio 2026</div>
+      <h1>尹若菡</h1>
+      <p class="role">地理信息与空间分析 硕士（M2）</p>
+      <p class="lead">在法国格勒诺布尔-阿尔卑斯大学学习地理信息与空间分析。做专题制图、遥感分类、Web GIS 与三维城市建模，把空间数据整理成能支持判断的地图、指标和交互平台。</p>
+      <dl class="facts">
+        <dt>学校</dt><dd>格勒诺布尔-阿尔卑斯大学（Université Grenoble Alpes）</dd>
+        <dt>方向</dt><dd>专题制图 · 遥感分类 · Web GIS</dd>
+        <dt>工具</dt><dd>ArcGIS Pro、QGIS、PyQGIS、OTB、R</dd>
+      </dl>
+      <div class="cta">
+        <a class="btn primary" href="#projects">查看项目</a>
+        <a class="btn ghost" href="mailto:1225369679@qq.com">1225369679@qq.com</a>
+      </div>
+    </div>
+    <div class="globe">
+      <img src="images/image1.png" alt="以格勒诺布尔为中心的正射投影地球">
+      <div class="pin"><b>45.19° N, 5.72° E</b> · 法国 格勒诺布尔</div>
+    </div>
+  </div>
+</header>
+
+<section class="block" id="projects">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>项目与能力索引</h2>
+      <p>1 段实习 + 7 个课程项目，覆盖法国与荷兰的不同尺度研究区</p>
+    </div>
+    <div class="index">
+      <a href="#wood"><span class="no">实习</span><span class="t">木材产业链</span><span class="loc">奥弗涅-罗讷-阿尔卑斯大区</span><span class="out">专题制图、流向图</span></a>
+      <a href="#wind"><span class="no">01</span><span class="t">风电场选址</span><span class="loc">东比利牛斯省</span><span class="out">约束叠加、多准则分析</span></a>
+      <a href="#lcz"><span class="no">02</span><span class="t">局地气候分区（LCZ）</span><span class="loc">艾克斯莱班、蒙特利马尔</span><span class="out">形态指标、LCZ 分类</span></a>
+      <a href="#fire"><span class="no">03</span><span class="t">森林火灾</span><span class="loc">拉泰斯特德比什</span><span class="out">分类比较、变化分析</span></a>
+      <a href="#flood"><span class="no">04</span><span class="t">洪水风险</span><span class="loc">上索恩省</span><span class="out">Web GIS、仪表盘</span></a>
+      <a href="#bike"><span class="no">05</span><span class="t">自行车停车设施</span><span class="loc">昂热都市区</span><span class="out">Web GIS、数据观测平台</span></a>
+      <a href="#amsterdam"><span class="no">06</span><span class="t">沉降与潜在淹没</span><span class="loc">阿姆斯特丹</span><span class="out">栅格建模</span></a>
+      <a href="#rouen"><span class="no">07</span><span class="t">城市三维建模</span><span class="loc">卢昂</span><span class="out">3D GIS、可视域分析</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- 实习：木材产业链 -->
+<section class="project alt" id="wood">
+  <div class="wrap">
+    <div class="p-head">
+      <div class="p-tag">实习 / 木材产业链</div>
+      <h2>奥弗涅-罗讷-阿尔卑斯大区木材产业链制图</h2>
+      <p class="sub">从项目分布、原料来源到加工与施工合作，三张图读懂一条区域产业链。</p>
+    </div>
+
+    <div class="row">
+      <figure class="fig"><img src="images/image3.jpg" alt="大区 177 个木材产业项目空间分布图" loading="lazy"><figcaption>项目空间分布：圆点大小表示项目数量，底图为市镇密度分级</figcaption></figure>
+      <div class="notes">
+        <h3>项目空间分布</h3>
+        <div class="note"><span class="k">目标</span><p>绘制大区内 177 个木材产业项目的空间分布，分析其集聚特征，比较项目在大城市及周边郊区的分布差异。</p></div>
+        <div class="note"><span class="k">方法</span><p>将空间上邻近的项目聚合为圆点，以圆点大小表示项目数量，并叠加市镇密度分级底图。</p></div>
+        <div class="note result"><span class="k">成果</span><p>项目主要集聚于里昂、格勒诺布尔周边的城镇密集区，山区和农村地区的项目相对较少、分布较为分散。</p></div>
+      </div>
+    </div>
+
+    <div class="row flip">
+      <figure class="fig"><img src="images/image4.jpg" alt="木材原料来源到加工企业的流向图" loading="lazy"><figcaption>原料来源 → 加工企业：线宽表示双方共同参与的项目数</figcaption></figure>
+      <div class="notes">
+        <h3>原料来源与加工</h3>
+        <div class="note"><span class="k">目标</span><p>追踪木材原料的跨区域供应流向，为识别本地资源利用与加工环节的衔接问题提供线索，支持加工能力建设、采购组织及区域产业扶持方向的判断。</p></div>
+        <div class="note"><span class="k">方法</span><p>区分锯木厂和工业企业两类加工方，用箭头表示供应方向，线宽表示双方共同参与的项目数。</p></div>
+        <div class="note result"><span class="k">成果</span><p>木材供应流向呈现向大区内加工企业汇聚的特征，原料来源涵盖大区内部、法国其他地区及欧洲其他国家，而加工企业主要分布在大区内。</p></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <figure class="fig"><img src="images/image5.jpg" alt="加工企业与木结构施工企业合作网络图" loading="lazy"><figcaption>加工企业 → 木结构施工企业：两种颜色区分加工企业类型</figcaption></figure>
+      <div class="notes">
+        <h3>加工与木结构施工</h3>
+        <div class="note"><span class="k">目标</span><p>展示加工企业与木结构施工企业之间的合作网络，为了解区域供应关系、开展企业对接和产业协作提供依据。</p></div>
+        <div class="note"><span class="k">方法</span><p>用两种颜色的流线区分加工企业类型，并按合作次数设置线宽。</p></div>
+        <div class="note result"><span class="k">成果</span><p>大区内部的流线更为密集，表明加工企业与木结构施工企业之间存在较广泛的区域内合作，反映出本地加工环节与木结构建设需求之间的紧密联系。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 01 风电 -->
+<section class="project" id="wind">
+  <div class="wrap">
+    <div class="p-head">
+      <div class="p-tag">01 / GIS 分析</div>
+      <h2>风电场选址多准则分析 · 东比利牛斯省</h2>
+      <p class="sub">综合地形、土地利用及居民点距离，找出最适合建设风电场的区域。</p>
+      <div class="p-meta"><span class="chip">ArcGIS Pro</span><span class="chip">QGIS</span><span class="chip">多准则分析</span></div>
+    </div>
+    <div class="row">
+      <figure class="fig"><img src="images/image6.jpg" alt="坡度、土地利用、居民点距离三项因子及加权适宜性地图" loading="lazy"><figcaption>多准则加权（满分 10）：坡度 2 · 土地利用 4 · 与居民点距离 4</figcaption></figure>
+      <div class="notes">
+        <h3>适宜性评价</h3>
+        <div class="note"><span class="k">方法</span><p>根据坡度、土地利用类型和距居民点的距离，分别评定各区域的风电建设适宜程度，按设定权重计算综合得分；排除不可建设区域后，生成风电场选址适宜性地图。</p></div>
+      </div>
+    </div>
+    <div class="row flip">
+      <figure class="fig"><img src="images/image7.jpg" alt="叠加生态保护分区与生态廊道的风电场候选选址图" loading="lazy"><figcaption>风电机组最优选址：叠加 ZNIEFF、ZPS 等生态保护区与生态廊道</figcaption></figure>
+      <div class="notes">
+        <h3>纳入生态保护要素</h3>
+        <div class="note"><span class="k">目标</span><p>在选址中加入生态因素，避免风电场落在生态敏感区。</p></div>
+        <div class="note"><span class="k">方法</span><p>在适宜性地图上叠加生态保护分区与生态廊道。</p></div>
+        <div class="note result"><span class="k">成果</span><p>输出候选选址图，标出既适宜建设、又需进一步做生态评估的区域。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 LCZ -->
+<section class="project alt" id="lcz">
+  <div class="wrap">
+    <div class="p-head">
+      <div class="p-tag">02 / 城市气候</div>
+      <h2>局地气候分区（LCZ）制图 · 艾克斯莱班与蒙特利马尔</h2>
+      <p class="sub">基于建筑形态与地表覆盖划分局地气候区，为比较两座城市的热岛特征及制定降温措施提供空间基础。</p>
+      <div class="p-meta"><span class="chip">QGIS</span><span class="chip">PyQGIS</span><span class="chip">LCZ 决策树</span></div>
+    </div>
+    <div class="row">
+      <div class="pair">
+        <figure class="fig"><img src="images/image8.jpg" alt="艾克斯莱班 LCZ 分区图" loading="lazy"><figcaption>艾克斯莱班</figcaption></figure>
+        <figure class="fig"><img src="images/image9.jpg" alt="蒙特利马尔 LCZ 分区图" loading="lazy"><figcaption>蒙特利马尔</figcaption></figure>
+      </div>
+      <div class="notes">
+        <div class="note"><span class="k">方法</span><p>使用 PyQGIS 计算天空可视因子、建筑高度和不透水率等指标，依据统一的 LCZ 决策树对两座城市进行分区，识别不同建筑形态与地表覆盖类型。</p></div>
+        <figure class="fig" style="max-width:300px"><img src="images/image10.jpg" alt="LCZ 分类图例：LCZ 2 至 LCZ G" loading="lazy"><figcaption>LCZ 分类图例</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 火灾 -->
+<section class="project" id="fire">
+  <div class="wrap">
+    <div class="p-head">
+      <div class="p-tag">03 / 遥感</div>
+      <h2>拉泰斯特德比什森林火灾 · 2020 与 2022 年影像分类</h2>
+      <p class="sub">对火灾前后两期 Sentinel-2 影像做土地覆盖分类，比较三种方法的效果，并结合 NBR 指数解读火灾影响。</p>
+      <div class="p-meta"><span class="chip">QGIS</span><span class="chip">Orfeo ToolBox</span><span class="chip">R</span><span class="chip">K-means / KNN / 随机森林</span></div>
+    </div>
+
+    <div class="row full">
+      <figure class="fig"><img src="images/image11.jpg" alt="K-means、KNN、随机森林三种方法 2020 与 2022 年分类结果对比" loading="lazy"><figcaption>三种分类方法结果对比，最终选择 KNN</figcaption></figure>
+    </div>
+    <div class="row full">
+      <div class="notes">
+        <div class="note"><span class="k">方法</span><p>分别采用 K-means 非监督分类，以及基于训练样本的 KNN、随机森林监督分类，提取两期土地覆盖信息，比较分类效果与精度。</p></div>
+      </div>
+    </div>
+
+    <div class="row full">
+      <div class="notes"><h3>处理流程</h3></div>
+    </div>
+    <ol class="flow">
+      <li><b>数据获取</b><span>Sentinel-2 两期影像（2020 / 2022），来源 Copernicus</span></li>
+      <li><b>影像预处理</b><span>蓝、绿、红、近红外四波段堆叠（OTB）</span></li>
+      <li><b>光谱信息</b><span>分类特征：波段 + NDVI、NDWI；另算 NBR 评估过火程度</span></li>
+      <li><b>训练样本</b><span>森林、水体、城市、裸土、植被地块、沙地、过火地</span></li>
+      <li><b>影像分类</b><span>K-means、KNN、随机森林；比较分类图与混淆矩阵（OTB）</span></li>
+      <li class="key"><b>方法选择</b><span>选定 KNN 分类结果作为变化分析的输入</span></li>
+      <li><b>变化分析</b><span>两期地类交叉统计，形成土地覆盖转移桑基图（QGIS、Excel、R）</span></li>
+      <li><b>结果与解读</b><span>对比分类结果与 NBR 图，两类证据共同解读火灾影响</span></li>
+    </ol>
+    <p class="callout">分类结果说明“地类怎么变”，NBR 指数说明“植被受损多严重”。</p>
+
+    <div class="row">
+      <figure class="fig"><img src="images/image12.jpg" alt="火灾前后 NBR 指数对比图" loading="lazy"><figcaption>NBR 指数：火灾前 2020 年 7 月 / 火灾后 2022 年 9 月</figcaption></figure>
+      <div class="notes">
+        <h3>NBR 指数对比</h3>
+        <div class="note"><span class="k">目标</span><p>用燃烧指数 NBR 对比火灾前后的植被状况。</p></div>
+        <div class="note"><span class="k">方法</span><p>NBR 由近红外（NIR）与短波红外（SWIR）计算，值越低，植被受损越严重。</p></div>
+      </div>
+    </div>
+    <div class="row flip">
+      <figure class="fig"><img src="images/image13.jpg" alt="2020 至 2022 年土地覆盖转移桑基图" loading="lazy"><figcaption>土地覆盖转移桑基图（面积以像元数计）</figcaption></figure>
+      <div class="notes">
+        <h3>土地覆盖转移关系</h3>
+        <div class="note"><span class="k">方法</span><p>对比两期分类影像中同一位置像元的土地覆盖类别，统计各地类之间的转换数量并生成桑基图。色带宽度表示对应的转移像元数量。</p></div>
+        <div class="note result"><span class="k">成果</span><p>火灾后的过火地主要由火灾前的森林转变而来，部分原为植被地块和裸地。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 洪水 -->
+<section class="project alt" id="flood">
+  <div class="wrap">
+    <div class="p-head">
+      <div class="p-tag">04 / Web GIS</div>
+      <h2>上索恩省洪水风险 · 六情景交互式仪表盘</h2>
+      <p class="sub">分析不同脆弱性定义下洪水风险评估结果的变化，揭示评价方法及假设如何影响各地区的风险排序。</p>
+      <div class="p-meta"><span class="chip">ArcGIS Dashboards</span></div>
+    </div>
+    <div class="row">
+      <figure class="fig"><img src="images/image14.jpg" alt="上索恩省洪水风险 ArcGIS 仪表盘截图" loading="lazy"><figcaption>交互式仪表盘：情景切换、地图与风险排序柱状图联动</figcaption></figure>
+      <div class="notes">
+        <div class="stats">
+          <div class="stat"><b>2 × 3</b><span>致灾 × 脆弱性情景</span></div>
+          <div class="stat"><b>6</b><span>种组合</span></div>
+        </div>
+        <div class="note"><span class="k">方法</span><p>2 种致灾 × 3 种脆弱性情景 = 6 种组合；对每个市镇计算平均风险和最高风险，在仪表盘中用柱状图排序比较。</p></div>
+        <div class="live">↗ <a href="https://www.arcgis.com/apps/dashboards/e07abdda7b7945abb8a43ff7840cf00b" target="_blank" rel="noopener">打开在线仪表盘</a></div>
+      </div>
+    </div>
+    <div class="row full">
+      <figure class="fig"><img src="images/image15.jpg" alt="六种情景的风险计算流程图" loading="lazy"><figcaption>六情景风险计算流程</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 05 自行车 -->
+<section class="project" id="bike">
+  <div class="wrap">
+    <div class="p-head">
+      <div class="p-tag">05 / Web GIS</div>
+      <h2>昂热自行车停车设施 · 交互式地图观测平台</h2>
+      <p class="sub">让用户按市镇或设施类型，查询自行车停车点与车位分布。</p>
+      <div class="p-meta"><span class="chip">GEO Generator</span></div>
+    </div>
+    <div class="row">
+      <figure class="fig"><img src="images/image16.jpg" alt="昂热自行车停车设施观测平台界面" loading="lazy"><figcaption>地图与图表随筛选条件同步更新</figcaption></figure>
+      <div class="notes">
+        <div class="stats">
+          <div class="stat"><b>125</b><span>处停车点</span></div>
+          <div class="stat"><b>1,277</b><span>个车位</span></div>
+          <div class="stat"><b>29</b><span>个市镇</span></div>
+        </div>
+        <div class="note"><span class="k">方法</span><p>清洗原始数据，计算各市镇车位指标；地图和图表随筛选条件同步更新。</p></div>
+        <div class="live">↗ <a href="https://try.geo.software/aws/app/8b8ef4cc-1456-11f0-8798-0dbcb584e455/index.html?dummy=1744712962953" target="_blank" rel="noopener">打开在线平台</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 阿姆斯特丹 -->
+<section class="project alt" id="amsterdam">
+  <div class="wrap">
+    <div class="p-head">
+      <div class="p-tag">06 / 建模</div>
+      <h2>阿姆斯特丹潜在淹没分析 · 现状与 2050 年情景</h2>
+      <p class="sub">比较现状与 2050 年（考虑地面沉降）的潜在淹没范围、水深与受影响建筑。</p>
+      <div class="p-meta"><span class="chip">ArcGIS Pro</span><span class="chip">栅格建模</span></div>
+    </div>
+    <div class="row">
+      <figure class="fig"><img src="images/image17.jpg" alt="阿姆斯特丹现状与 2050 年淹没区及受淹建筑损失对比图" loading="lazy"><figcaption>现状（左）与 2050 年（右）淹没区及建筑损失（估算值）</figcaption></figure>
+      <div class="notes">
+        <div class="note result"><span class="k">成果</span><p>到 2050 年，淹没区由西向东扩展，几乎覆盖整个研究区，建筑损失随之加大。</p></div>
+        <h3 style="margin-top:24px">计算步骤</h3>
+        <ol class="steps">
+          <li>整理 DEM：拼接多块数据、填补空值、裁剪到研究区。</li>
+          <li>统一高程单位（cm），并将沉降数据重采样到同一 5 m 栅格。</li>
+          <li>从现状高程中扣除至 2050 年的沉降量，得到 2050 年地形。</li>
+          <li>高程 ≤ -200 cm 的栅格判定为潜在淹没区，并计算各处水深。</li>
+          <li>叠加建筑图层，统计受影响建筑并估算损失。</li>
+        </ol>
+        <p class="small">-200 cm 为本项目设定的淹没阈值，结果主要用于现状与 2050 年的对比。</p>
+      </div>
+    </div>
+    <div class="row full">
+      <figure class="fig" style="max-width:420px"><img src="images/image18.jpg" alt="高程与沉降情景计算模型流程图" loading="lazy"><figcaption>ModelBuilder 计算流程</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 07 卢昂 -->
+<section class="project" id="rouen">
+  <div class="wrap">
+    <div class="p-head">
+      <div class="p-tag">07 / 3D GIS</div>
+      <h2>卢昂城市建模 · Web 三维场景与可视域分析</h2>
+      <p class="sub">为卢昂局部区域构建可在网页中浏览的三维城市场景。</p>
+      <div class="p-meta"><span class="chip">ArcGIS Pro</span><span class="chip">QGIS</span><span class="chip">Qgis2threejs</span></div>
+    </div>
+    <div class="row">
+      <figure class="fig"><img src="images/image19.jpg" alt="卢昂建筑、道路和植被二维底图" loading="lazy"><figcaption>二维底图：建筑按高度分级，叠加道路与植被</figcaption></figure>
+      <div class="notes">
+        <div class="note"><span class="k">方法</span><p>整理建筑、道路和植被图层，按建筑高度设置模型的拉伸参数，导出为可在网页中浏览的三维场景。</p></div>
+        <figure class="fig"><img src="images/image20.jpg" alt="卢昂三维城市场景" loading="lazy"><figcaption>三维场景：建筑按高度拉伸</figcaption></figure>
+      </div>
+    </div>
+    <div class="row flip">
+      <figure class="fig"><img src="images/image21.jpg" alt="风机可视域分析结果" loading="lazy"><figcaption>可视域分析：风机位置及其可见范围</figcaption></figure>
+      <div class="notes">
+        <h3>可视域分析</h3>
+        <div class="note"><p>以风机位置为观察点计算可视域，展示风机在周边地形中的可见范围。</p></div>
+        <figure class="fig" style="max-width:220px"><img src="images/image22.jpg" alt="可视域取值图例" loading="lazy"><figcaption>图例</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 技能 -->
+<section class="block" id="skills">
+  <div class="wrap">
+    <div class="sec-head"><h2>技能</h2></div>
+    <div class="skills">
+      <div class="skill">
+        <h3>专题制图与空间分析</h3>
+        <p>木材产业链、风电选址、LCZ</p>
+        <div class="chips"><span class="chip">ArcGIS Pro</span><span class="chip">QGIS</span><span class="chip">多准则分析</span><span class="chip">流向图</span></div>
+      </div>
+      <div class="skill">
+        <h3>遥感与变化分析</h3>
+        <p>森林火灾分类与转移分析</p>
+        <div class="chips"><span class="chip">Sentinel-2</span><span class="chip">OTB</span><span class="chip">QGIS</span><span class="chip">R</span></div>
+      </div>
+      <div class="skill">
+        <h3>Web GIS 与三维表达</h3>
+        <p>交互平台与三维场景</p>
+        <div class="chips"><span class="chip">ArcGIS Dashboards</span><span class="chip">GEO Generator</span><span class="chip">Qgis2threejs</span></div>
+      </div>
+      <div class="skill">
+        <h3>其他技术储备</h3>
+        <p>数据库、编程与点云</p>
+        <div class="chips"><span class="chip">PostgreSQL / PostGIS</span><span class="chip">Python</span><span class="chip">PyQGIS</span><span class="chip">R Shiny</span><span class="chip">HTML / CSS / JS</span><span class="chip">LiDAR</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div>
+      <h2>联系我</h2>
+      <p style="margin-bottom:18px">欢迎就 GIS、遥感与空间分析相关的岗位与合作联系。</p>
+      <a class="mail" href="mailto:1225369679@qq.com">1225369679@qq.com</a>
+    </div>
+    <div class="meta">
+      尹若菡<br>
+      格勒诺布尔-阿尔卑斯大学<br>
+      地理信息与空间分析 硕士（M2）
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 尹若菡 · 地理信息与空间分析作品集</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true"><div><img alt=""><p></p></div></div>
+
+<script>
+  // 深浅色切换
+  const root = document.documentElement;
+  try { const t = localStorage.getItem('theme'); if (t) root.dataset.theme = t; } catch (e) {}
+  document.getElementById('themeBtn').onclick = () => {
+    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+  };
+  // 图片放大
+  const lb = document.getElementById('lb'), lbImg = lb.querySelector('img'), lbCap = lb.querySelector('p');
+  document.querySelectorAll('.fig img').forEach(img => img.addEventListener('click', () => {
+    lbImg.src = img.src; lbImg.alt = img.alt;
+    lbCap.textContent = img.closest('figure').querySelector('figcaption')?.textContent || '';
+    lb.classList.add('open');
+  }));
+  lb.onclick = () => lb.classList.remove('open');
+  addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('open'); });
+</script>
+</body>
+</html>
