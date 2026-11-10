@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 586" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif">
+<rect width="1000" height="586" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7b8c92"/></marker></defs>
+<path d="M500 52V64H500V77" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M500 108V120H200V139" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M500 108V120H700V139" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M200 172V184H200V199" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M200 230V242H100V261" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M200 230V242H300V261" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M100 294V306H100V321" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M100 352V364H50V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M100 352V364H150V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M300 294V306H300V321" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M300 352V364H250V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M300 352V364H350V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700 172V184H700V199" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700 230V242H500V261" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700 230V242H800V261" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M500 294V306H500V321" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M500 352V364H450V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M500 352V364H550V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M800 294V306H800V321" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M800 352V364H700V387" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M800 352V364H900V387" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700 420V432H700V447" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700 478V490H650V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700 478V490H750V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M900 420V432H900V447" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M900 478V490H850V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M900 478V490H950V519" fill="none" stroke="#7b8c92" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="455.0" y="20" width="90" height="32" rx="16" fill="#fbe4e1" stroke="#c8613a" stroke-width="1.5"/>
+<text x="500" y="41.0" text-anchor="middle" font-size="14" font-weight="700" fill="#7a2f18">街区</text>
+<rect x="425.0" y="78" width="150" height="30" rx="15" fill="#2f7380"/>
+<text x="500" y="98.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">建筑覆盖率 BuR</text>
+<rect x="140.0" y="140" width="120" height="32" rx="4" fill="#eef4f6" stroke="#8fa9b4" stroke-width="1.2"/>
+<text x="200" y="161.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2b31">自然类 LCZ</text>
+<rect x="640.0" y="140" width="120" height="32" rx="4" fill="#eef4f6" stroke="#8fa9b4" stroke-width="1.2"/>
+<text x="700" y="161.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2b31">城市类 LCZ</text>
+<rect x="125.0" y="200" width="150" height="30" rx="15" fill="#2f7380"/>
+<text x="200" y="220.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">植被比例 VeR</text>
+<rect x="600.0" y="200" width="200" height="30" rx="15" fill="#2f7380"/>
+<text x="700" y="220.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">建筑高度 HMB 或 HMR</text>
+<rect x="52.0" y="262" width="96" height="32" rx="4" fill="#eef4f6" stroke="#8fa9b4" stroke-width="1.2"/>
+<text x="100" y="283.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2b31">无植被</text>
+<rect x="252.0" y="262" width="96" height="32" rx="4" fill="#eef4f6" stroke="#8fa9b4" stroke-width="1.2"/>
+<text x="300" y="283.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2b31">有植被</text>
+<rect x="452.0" y="262" width="96" height="32" rx="4" fill="#eef4f6" stroke="#8fa9b4" stroke-width="1.2"/>
+<text x="500" y="283.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2b31">高层建筑</text>
+<rect x="752.0" y="262" width="96" height="32" rx="4" fill="#eef4f6" stroke="#8fa9b4" stroke-width="1.2"/>
+<text x="800" y="283.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2b31">低层建筑</text>
+<rect x="40.0" y="322" width="120" height="30" rx="15" fill="#2f7380"/>
+<text x="100" y="342.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">不透水率 RoR</text>
+<rect x="230.0" y="322" width="140" height="30" rx="15" fill="#2f7380"/>
+<text x="300" y="342.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">天空可视因子 SVF</text>
+<rect x="445.0" y="322" width="110" height="30" rx="15" fill="#2f7380"/>
+<text x="500" y="342.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">高宽比 AR</text>
+<rect x="740.0" y="322" width="120" height="30" rx="15" fill="#2f7380"/>
+<text x="800" y="342.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">植被比例 VeR</text>
+<rect x="652.0" y="388" width="96" height="32" rx="4" fill="#eef4f6" stroke="#8fa9b4" stroke-width="1.2"/>
+<text x="700" y="409.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2b31">植被稀疏</text>
+<rect x="852.0" y="388" width="96" height="32" rx="4" fill="#eef4f6" stroke="#8fa9b4" stroke-width="1.2"/>
+<text x="900" y="409.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2b31">植被茂密</text>
+<rect x="645.0" y="448" width="110" height="30" rx="15" fill="#2f7380"/>
+<text x="700" y="468.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">高宽比 AR</text>
+<rect x="845.0" y="448" width="110" height="30" rx="15" fill="#2f7380"/>
+<text x="900" y="468.0" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">高宽比 AR</text>
+<rect x="6.0" y="520" width="88" height="50" rx="4" fill="#f2b47e" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="50" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">E</text>
+<text x="50" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">硬质地表</text>
+<rect x="106.0" y="520" width="88" height="50" rx="4" fill="#8ec9f7" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="150" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">G</text>
+<text x="150" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">水体</text>
+<rect x="206.0" y="520" width="88" height="50" rx="4" fill="#c9f56a" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="250" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">D</text>
+<text x="250" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">低矮植被</text>
+<rect x="306.0" y="520" width="88" height="50" rx="4" fill="#8fca4f" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="350" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">B</text>
+<text x="350" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">稀疏树木</text>
+<rect x="406.0" y="520" width="88" height="50" rx="4" fill="#f28b8f" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="450" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">LCZ 2</text>
+<text x="450" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">紧凑中层</text>
+<rect x="506.0" y="520" width="88" height="50" rx="4" fill="#b9b4f7" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="550" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">LCZ 5</text>
+<text x="550" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">开敞中层</text>
+<rect x="606.0" y="520" width="88" height="50" rx="4" fill="#f4e85f" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="650" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">LCZ 3</text>
+<text x="650" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">紧凑低层</text>
+<rect x="706.0" y="520" width="88" height="50" rx="4" fill="#5d4a6a" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="750" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">LCZ 8</text>
+<text x="750" y="559" text-anchor="middle" font-size="13" fill="#fff">大型低层</text>
+<rect x="806.0" y="520" width="88" height="50" rx="4" fill="#4fd1c1" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="850" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">LCZ 6</text>
+<text x="850" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">开敞低层</text>
+<rect x="906.0" y="520" width="88" height="50" rx="4" fill="#d9d9d9" stroke="#5f5e5b" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="950" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#1d2b31">LCZ 9</text>
+<text x="950" y="559" text-anchor="middle" font-size="13" fill="#1d2b31">稀疏建筑</text>
+</svg>
