@@ -6,7 +6,7 @@
   --ink-3: #91918e;
   --line: #e6e5e2;
   --box: #b5a483;
-  --cover: 180px;
+  --cover: 160px;
   --hover: #f1f0ee;
   --accent: #2f7380;
   --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif, "Segoe UI Emoji";
@@ -33,9 +33,9 @@ h1, h2, h3, p { margin: 0; }
 
 /* ---------- page frame ---------- */
 .cover { position: relative; height: var(--cover); overflow: hidden; background: linear-gradient(#c9dde4, #e4eef2); }
-.photo { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
-.uni { position: absolute; top: 10px; left: 16px; height: 160px; width: auto; background: #fff; padding: 8px 12px; border-radius: 8px; }
-.page { max-width: 1160px; margin: 0 auto; padding: 28px 32px 64px; }
+.photo { width: 100%; height: 100%; object-fit: cover; object-position: center 45%; }
+.uni { position: absolute; top: 10px; left: 16px; height: 120px; width: auto; background: #fff; padding: 8px 12px; border-radius: 8px; }
+.page { max-width: 1400px; margin: 0 auto; padding: 28px 32px 64px; }
 .title { display: flex; align-items: center; gap: 28px; margin-bottom: 28px; }
 .welcome { margin-top: 10px; font-size: 18px; color: var(--accent); }
 .title h1 { font-size: 40px; line-height: 1.2; font-weight: 700; }
@@ -48,7 +48,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .dl:hover { background: var(--hover); }
 .dl small { font-size: 12px; font-weight: 400; color: var(--ink-3); }
-.cols { display: grid; grid-template-columns: 236px minmax(0, 1fr); gap: 36px; align-items: start; }
+.cols { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 36px; align-items: start; }
 
 .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
 .head { font-size: 22px; font-weight: 600; padding-bottom: 8px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
@@ -213,8 +213,9 @@ img.logo { object-fit: contain; background: #fff; }
 
 @media (max-width: 980px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) {
+  .earth { --d: 110vw; left: calc(var(--d) * -.15); bottom: calc(var(--d) * -.3); }
   :root { --cover: 170px; }
-  .uni { top: 10px; left: 10px; height: 104px; padding: 6px 8px; }
+  .uni { top: 10px; left: 10px; height: 80px; padding: 6px 8px; }
   .page { padding: 20px 16px 40px; }
   .cols { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .title h1 { font-size: 34px; }
@@ -222,7 +223,7 @@ img.logo { object-fit: contain; background: #fff; }
   .avatar { width: 96px; }
   .welcome { font-size: 16px; }
   .tools { grid-template-columns: 1fr 1fr; }
-  .nav { grid-template-columns: repeat(2, 1fr); }
+  .nav { grid-template-columns: repeat(3, 1fr); }
   .detail { padding: 16px 20px 40px; }
 }
 @media (max-width: 480px) { .gallery { grid-template-columns: 1fr; } }
